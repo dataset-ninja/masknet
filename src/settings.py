@@ -55,7 +55,7 @@ PAPER: Optional[Union[str, List[str], Dict[str, str]]] = ["https://link.springer
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub Page":"https://github.com/Tenebris97/MaskNet"}
 
-CITATION_URL: Optional[str] = ["https://www.kaggle.com/datasets/tenebris97/masknet#citation"]
+CITATION_URL: Optional[str] = "https://www.kaggle.com/datasets/tenebris97/masknet#citation"
 AUTHORS: Optional[List[str]] = ["Amirhossein Peyvandi", "Babak Majidi", "Soodeh Peyvandi", "Jagdish C. Patra", "Behzad Moshiri"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Khatam University", "University of Applied Sciences Upper Austria", "Swinburne University of Technology", "University of Tehran"]
