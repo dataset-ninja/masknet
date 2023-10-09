@@ -1,6 +1,6 @@
 Dataset **MaskNet** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](Set 'HIDE_DATASET=False' to generate download link)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/x/J/Qk/SX8IFVV6dW9nv77j87vH3hJkpfjvXiecArJt5GbO5c4rYA45DA8WlPNUD6spZABrsguTPVxfM2CBvhxzGXvc4NPSxw0mdBlmU8DZY7l3O3DXAytolGhU3NrxJ9sj.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
