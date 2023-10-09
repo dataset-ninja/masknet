@@ -22,7 +22,7 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.ODbL_1_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.SmartCity()]
-CATEGORY: Category = Category.Environmental()
+CATEGORY: Category = Category.Environmental(extra=[Category.Surveillance(),Category.EnergyAndUtilities()])
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection(), CVTask.Classification()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
@@ -53,7 +53,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = ["https://link.springer.com/article/10.1007/s11042-021-11654-w"]
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub Page":"https://github.com/Tenebris97/MaskNet"}
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"https://github.com/Tenebris97/MaskNet"}
 
 CITATION_URL: Optional[str] = "https://www.kaggle.com/datasets/tenebris97/masknet#citation"
 AUTHORS: Optional[List[str]] = ["Amirhossein Peyvandi", "Babak Majidi", "Soodeh Peyvandi", "Jagdish C. Patra", "Behzad Moshiri"]
