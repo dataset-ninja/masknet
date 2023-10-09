@@ -24,7 +24,7 @@ LICENSE: License = License.ODbL_1_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.SmartCity()]
 CATEGORY: Category = Category.Environmental()
 
-CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
+CV_TASKS: List[CVTask] = [CVTask.ObjectDetection(), CVTask.Classification()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
 
 RELEASE_DATE: Optional[str] = "2022-01-03"  # e.g. "YYYY-MM-DD"
