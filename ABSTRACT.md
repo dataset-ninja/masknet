@@ -6,6 +6,7 @@ Authors' research has several novel contributions:
 - The third contribution of this research is a location intelligence model which combines the output of LitterNet with various models interpolated from smart city geo-location datasets in order to provide a series of proposals for hazardous litter management intelligence in smart cities for emergency response management.
 
 <img src="https://i.ibb.co/r416Rm3/Screenshot-2023-10-09-145042.png" alt="image" width="800">
+
 <span style="font-size: smaller; font-style: italic;">The architecture of LitterNet and the process of mask and trash detection.</span>
 
 The MaskNet dataset was collected in Austria and Iran in July 2020. The dataset was collected daily for seven days in Steyr, Austria, and Tehran, Iran, during diferent times of day from 6 A.M. up to 6 P.M. from diferent environments such as streets, parks, riverbanks, inside buildings and ofces. It consists of 1061 surgical masks images that are littered on the streets and other urban areas. In addition, images of streets without discarded masks were also collected. The original size of the dataset is 6.9 GB, and the photos have an image resolution of 3024 × 4032 pixels. The images are captured by three smartphones: An Apple iPhone 11, a Samsung Galaxy S8, and a Samsung Galaxy S10.
