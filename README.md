@@ -1,3 +1,3 @@
 # MaskNet
 
-MaskNet is a dataset for object detection and classification tasks.
+MaskNet is a dataset for object detection task.
