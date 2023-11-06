@@ -22,7 +22,7 @@ HIDE_DATASET = False  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.ODbL_1_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.SmartCity()]
-CATEGORY: Category = Category.Environmental(extra=[Category.Surveillance(),Category.EnergyAndUtilities()])
+CATEGORY: Category = Category.Environmental(extra=[Category.EnergyAndUtilities()])
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection(), CVTask.Classification()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
@@ -57,6 +57,8 @@ REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"https:/
 
 CITATION_URL: Optional[str] = "https://www.kaggle.com/datasets/tenebris97/masknet#citation"
 AUTHORS: Optional[List[str]] = ["Amirhossein Peyvandi", "Babak Majidi", "Soodeh Peyvandi", "Jagdish C. Patra", "Behzad Moshiri"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["b.majidi@khatam.ac.ir"]
+
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Khatam University", "University of Applied Sciences Upper Austria", "Swinburne University of Technology", "University of Tehran"]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://khatam.ac.ir/en", "https://www.fh-ooe.at/en/", "https://www.swinburne.edu.au/", "https://ut.ac.ir/en"]
@@ -110,6 +112,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
